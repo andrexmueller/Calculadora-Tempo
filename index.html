@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de datas</title>
+  </head>
+  <body>
+    <h1>Calculadora de datas e periodos</h1>
+    
+    <div class="container" id="periodoEntreDatas">
+      <p>Calcula o periodo entre duas datas</p>
+      <input class="datas" id="ini1" type="date">
+      <input class="datas" id="fin1" type="date"> <br>
+      <button class="calcula" id="calcDD">Calcula</button>
+      <span id="perEntreDts"></span>
+    </div>
+
+    <div class="container" id="dataMaisPeriodo">
+      <p>Calcula uma data mais um período</p>
+      <input class="datas" id="dtini" type="date"> <br>
+      <div class="periodo">
+        <input type="text" id="anos" size="1" placeholder="0"> anos
+        <input type="text" id="meses" size="1" placeholder="0"> meses
+        <input type="text" id="dias" size="1" placeholder="0"> dias
+      </div>
+      <button class="calcula" id="calcDP">Calcula</button>
+      <span id="dataMaisPer"></span>
+    </div>
+
+    <div class="container" id="aritPP">
+      <p>Aritmética de períodos</p>
+      <div class="dtf1">
+        <input type="text" id="anos1" size="1" placeholder="0"> anos
+        <input type="text" id="meses1" size="1" placeholder="0"> meses
+        <input type="text" id="dias1" size="1" placeholder="0"> dias
+      </div>
+      <br>
+      <div class="dtf1" id="dtf12">
+        <input type="text" id="anos2" size="1" placeholder="0"> anos
+        <input type="text" id="meses2" size="1" placeholder="0"> meses
+        <input type="text" id="dias2" size="1" placeholder="0"> dias
+      </div>
+      
+      <br>
+      <button class="calcula" id="ppsoma"> + </button>
+      <button class="calcula" id="ppsub"> - </button>
+      <span id="ppres"></span>
+    </div>
+
+    <div class="container" id="conv">
+      <p>Conversão de tempo</p>
+      <div class="dtf1">
+        <input type="text" id="anosc" size="1" placeholder="0"> anos
+        <input type="text" id="mesesc" size="1" placeholder="0"> meses
+        <input type="text" id="diasc" size="1" placeholder="0"> dias
+      </div>
+      <br>
+      <input type="number" id="fator" step="0.1" placeholder="0.0">
+      <button id="converte">Fator</button>
+      <span id="convertido"></span>
+    </div>
+
+    <footer></footer>
+  </body>
+  <script src="datatempo.js"></script>
+  <script src="main.js"></script>
+
+</html>

@@ -1,0 +1,116 @@
+
+body {
+    font-family: OpenSansRegular,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color: #34495e;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    background-color: #34495e;
+    color:#f6f6f6;
+    margin: auto;
+    text-align: center;
+}
+.container {
+    font-family: arial;
+    font-size: 20px;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    outline: dashed 1px black;
+}
+
+button {
+    background: #34495e;
+    color: #fff;
+    border-color: #34495e;
+    font-size: 20px;
+    display: block;
+    margin: 10px;
+    position: relative;
+    left: 40%;
+    width: 90px;
+}
+
+div p {
+    padding-top: 3%;
+    text-align: center;
+}
+
+input p {
+    margin: auto;
+}
+.datas {
+    font-size: large;
+    position: relative;
+    left: 25%;
+    margin: 10px;
+}
+
+input[type="text"] {
+    font-size: large;
+    margin: 0px 5px 0px 5px;
+}
+
+span {
+    font-size: larger;
+    display: block;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.periodo {
+    display:block;
+    margin-left: 20%;
+    margin-bottom: 15px;
+    
+}
+
+#dtini {
+    display: block;
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+
+#dataMaisPeriodo {
+    height: 230px;
+}
+
+#aritPP {
+    height: 230px;
+}
+
+#conv {
+    height: 230px;
+}
+#ppsoma {
+    display: inline;
+    margin-left: -8%;
+    margin-top: 0;
+}
+
+#ppsub {
+    display: inline;
+    margin-top: 0;
+}
+
+.dtf1 { 
+    display:block;
+    margin-left: 20%;
+    margin-bottom:0;
+}
+
+#dtf12 {
+    margin-top: -10px;
+}
+
+input[type="number"] {
+    font-size: large;
+    margin: 0 0 5px 44%;
+    width: 60px;
+}
+
+
+footer {
+    height: 50px;
+}
